@@ -1,13 +1,30 @@
 // TASK MANAGER
-
 // Message to be used throughout the file/project
-const title = `TASK MANAGER`
-// Enter option prompt
-const enterOption = `What would you like to do? (Please enter one of the options below):`;
-// Options
-const op1 = `TASKS - Display All Tasks`;
-const op2 = `NEW - Add a New Task`;
-const op3 = `REMOVE - Remove a Task`;
-const op4 = `CLOSE - Close the Task Manager`
-// Closing salutation
-const exitMsg = `Thank You for Using the TASK MANAGER`
+const enterOption = `TASK MANAGER
+What would you like to do? (Please enter one of the options below):
+
+"TASKS" - Display All Tasks
+"NEW" - Add a New Task
+"REMOVE" - Remove a Task
+"CLOSE" - Close the Task Manager
+`
+// For adding to the tasks list
+let addTasks = true;
+
+// For storing new tasks
+let newTasks;
+
+// For removing tasks
+let removeTasks;
+
+// Starting alert message
+prompt(enterOption);
+
+
+// For storing user's response to add task or remove task
+let moreTasks;
+
+// For displaying task list
+let allTasks;
+
+
