@@ -6,10 +6,13 @@ What would you like to do? (Please enter one of the options below):
 "TASKS" - Display All Tasks
 "NEW" - Add a New Task
 "REMOVE" - Remove a Task
-"CLOSE" - Close the Task Manager
+"CLOSE" - Close Task Manager
 `
+// To close Task Manager
+const closeTask = "CLOSE"
+let userEntry = prompt(`Thank you for using Task Manager`)
 // For adding to the tasks list
-let addTasks = true;
+let addTasks;
 
 // For storing new tasks
 let newTasks;
@@ -20,6 +23,12 @@ let removeTasks;
 // Starting alert message
 prompt(enterOption);
 
+// Tasks may be viewed or added as long as newTasks has value of true
+while (addTasks){
+//    if (closeTask.toUpperCase === userEntry);
+
+
+break;}
 
 // For storing user's response to add task or remove task
 let moreTasks;
