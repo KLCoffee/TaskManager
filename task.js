@@ -10,7 +10,7 @@ What would you like to do? (Please enter one of the options below):
 `
 // To close Task Manager
 const closeTask = "CLOSE"
-let userEntry = prompt(`Thank you for using Task Manager`)
+let userEntry = alert(`Thank you for using Task Manager`)
 // For adding to the tasks list
 let addTasks;
 
@@ -25,7 +25,7 @@ prompt(enterOption);
 
 // Tasks may be viewed or added as long as newTasks has value of true
 while (addTasks){
-//    if (closeTask.toUpperCase === userEntry);
+      if (closeTask.toUpperCase === userEntry);
 
 
 break;}
